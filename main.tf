@@ -6,6 +6,6 @@ resource"aws_instance" "Example"{
     instance_type = "t2.micro"
     subnet_id     = "subnet-09a7a5b0346992524"
     key_name      = "docker"
-    tags = "terraform1"
+    tags = "Example"
     
 }
